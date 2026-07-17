@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ===== Dự án RAG =====
+
+# Cấu hình chứa secret
+.env
+
+# Tài liệu thật — KHÔNG BAO GIỜ commit
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.xlsx
+data/
+uploads/
+
+# Dữ liệu Qdrant
+qdrant_storage/
+
+# Model tải về (vài GB)
+models/
+.cache/
